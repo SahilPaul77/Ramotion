@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(47,45,101);
+    height: 80px;
+    box-shadow: 0 4px 8px 0 rgb(126, 126, 235);
+}
+header a{
+    text-decoration: none;
+    margin-top: 12px;
+    color: white;
+}
+#logo{
+    font-family: 'Monoton', cursive;
+    color: white;
+    position: relative;
+    font-size: 50px;
+    right: 250px;
+}
+header li{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(47,45,101);
+    position: relative;
+    bottom: 30px;
+    padding: 30px;
+    color: white;
+    position: relative;
+    left: 300px;
+}
+a:hover{
+    color: rgb(255,138,62);
+}
+form{
+    color: rgb(47,45,101);
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px;
+    position: relative;
+    left: 150px;
+    width: 300px;  
+}
+form input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(47,45,101);
+}
+.type-box{
+    height: 100px;
+    width: 300;
+}
+#button{
+    background-color: rgb(47,45,101);
+    color: white;
+    width: 100px;
+    height: 50px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+#section-1{
+    background-color: rgb(47,45,101);
+    width: 800px;
+    height: 480px;
+    position: absolute;
+    left: 535px;
+    bottom: 7px;
+    border-radius: 20px;
+}
+#section-1 h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    top: 30px;
+    position: relative;
+    z-index: 2;
+}
+.images{
+    position: absolute;
+    bottom: 10px;
+    left: 600px;
+    z-index: 1;
+}
+#loc{
+    height: 80px;
+    position: absolute;
+    bottom: 210px;
+}
+#contact{
+    height: 80px;
+    position: absolute;
+    bottom: 120px;
+}
+#mail-icon{
+    height: 80px;
+    position: absolute;
+    bottom: 30px;
+}
+#footer{
+    background-color: black;
+    height: 500px;
+    clear: left;
+    position: relative;
+    top: 100px;
+    width:100%;
+}
+#footer-logo{
+    font-size: 40px;
+    font-family: 'Monoton', cursive;
+    position: relative;
+    color:white;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    width: 80px;
+}
+.footer-content h3{
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-content p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 30px;
+}
+.footer-content div{
+    float: left;
+    position: relative;
+    left: 400px;
+    top: 50px;
+    padding: 40px;
+}
+#ok{
+    font-family: 'Montserrat', sans-serif;
+    width: 50px;
+}
+#mail{
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+#signup{
+    color: white;
+    clear: both;
+    font-family: 'Montserrat', sans-serif;
+    border: solid rgb(248, 53, 53);
+    background-color:rgb(248, 53, 53);
+    width: 130px;
+    height: 50px;
+    position: relative;
+    left: 880px;
+    bottom: 50px;
+}
+#signup h3{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}

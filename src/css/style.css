@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(47,45,101);
+    height: 80px;
+    box-shadow: 0 4px 8px 0 rgb(126, 126, 235);
+}
+header a{
+    text-decoration: none;
+    margin-top: 12px;
+    color: white;
+}
+#logo{
+    font-family: 'Monoton', cursive;
+    color: white;
+    position: relative;
+    font-size: 50px;
+    right: 250px;
+}
+header li{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(47,45,101);
+    position: relative;
+    bottom: 30px;
+    padding: 30px;
+    color: white;
+    position: relative;
+    left: 300px;
+}
+a:hover{
+    color: rgb(255,138,62);
+}
+#header-text h1{
+    color:rgb(47,45,101);
+    font-family:'Montserrat', sans-serif;
+    font-size: 60px;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+#header-text p{
+    color: rgb(47,45,101);
+    border: 50px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+   
+}
+#header-button h5{
+    background-color: rgb(255,138,62);
+    color: white;
+    border: solid;
+    width: 170px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+#header-image{
+  position: relative;
+  margin-left: 700px;
+  bottom: 500px;
+}
+#benefits{
+    text-align: center;
+    position: relative;
+    color: rgb(47,45,101);
+    font-family: 'Nunito', sans-serif;
+    margin-top: -300px;
+    clear: both;
+
+}
+#icon1{
+    height: 100px;
+    width: 100px;
+    margin-left: 80px;
+}
+#icon2{
+    height: 100px;
+    width: 100px;
+    margin-left: 70px;
+}
+#icon3{
+    height: 100px;
+    width: 100px;
+    margin-left: 80px;
+}
+#benefits-content h2{
+    color: rgb(47,45,101);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+#benefits-content p{
+    color: rgb(47,45,101);
+    font-family: 'Montserrat', sans-serif;
+    width: 250px;
+    text-align: center;
+}
+#benefits-content div{
+    margin-top: 30px;
+    margin-left: 130px;
+    float: left;
+}
+
+#heading-3{
+    color: rgb(47,45,101);
+    font-family: 'Nunito', sans-serif;
+    margin-top: 400px;
+    text-align: center;
+    clear: left;
+}
+#heading-3 p{
+    color: rgb(47,45,101);
+    font-family: 'Montserrat', sans-serif;
+    width: 500px;
+    margin-left: 430px;
+    margin-top: 30px;
+}
+#heading-4 h1{
+    color: rgb(47,45,101);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+#heading-4 p{
+    color: rgb(47,45,101);
+    font-family: 'Montserrat', sans-serif;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 390px;
+    text-align: center;
+}
+#basic-charge-icon{
+    height: 200px;
+    width: 200px;
+    margin-left: 90px;
+}
+#fast-charge-icon{
+    height: 200px;
+    width: 200px;
+    margin-left: 90px;
+}
+#supercharge-icon{
+    height: 200px;
+    width: 200px;
+    margin-left: 90px;
+}
+#levels{
+    color: rgb(47,45,101);
+    margin-top: 100px;
+}
+#levels p{
+    width: 400px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#levels h1{
+    font-family: 'Nunito', sans-serif;
+    margin-top: 30px;
+    text-align: center;
+}
+.level-text{
+    color: rgb(47,45,101);
+}
+.level-button{
+    width: 200px;
+    border: solid  rgb(255,138,62) 2px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    background-color: transparent;
+    height: 70px;
+    color: rgb(255,138,62);
+    margin-top: 30px;
+    margin-left: 90px;
+}
+#levels div{
+    float: left;
+    margin-left: 40px;
+}
+.level-buttons{
+    width: 200px;
+    border: solid  rgb(255,138,62) 2px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    background-color: transparent;
+    height: 70px;
+    color: rgb(255,138,62);
+    margin-top: 68px;
+    margin-left: 90px;
+}
+#socket h1{
+    color: rgb(47,45,101);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    position: relative;
+    clear: both;
+    top: 100px;
+}
+#socket p{
+    top: 120px;
+    color: rgb(47,45,101);
+    font-family: 'Montserrat', sans-serif;
+    width: 300px;
+    margin-left: 520px;
+    text-align: center;
+    position: relative;
+}
+#chademo{
+    height: 200px;
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+#tesla-supercharger{
+    height: 200px;
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+#tesla-roadster{
+    height: 200px;
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+#socket-type{
+    margin-top: 200px;
+    color: rgb(47,45,101);
+    font-family: 'Montserrat', sans-serif;
+}
+#socket-type p{
+    width: 400px;
+    margin-top: 30px;
+}
+#socket-type div{
+    float: left;
+    padding: 20px;
+}
+#footer{
+    background-color: black;
+    height: 500px;
+    clear: left;
+    position: relative;
+    top: 100px;
+    width:100%;
+}
+#footer-logo{
+    font-size: 40px;
+    font-family: 'Monoton', cursive;
+    position: relative;
+    color:white;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    width: 80px;
+}
+.footer-content h3{
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-content p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 30px;
+}
+.footer-content div{
+    float: left;
+    position: relative;
+    left: 400px;
+    top: 50px;
+    padding: 40px;
+}
+#ok{
+    font-family: 'Montserrat', sans-serif;
+    width: 50px;
+}
+#mail{
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+#signup{
+    color: white;
+    clear: both;
+    font-family: 'Montserrat', sans-serif;
+    border: solid rgb(248, 53, 53);
+    background-color:rgb(248, 53, 53);
+    width: 130px;
+    height: 50px;
+    position: relative;
+    left: 880px;
+    bottom: 50px;
+}
+#signup h3{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+
+
+
+
